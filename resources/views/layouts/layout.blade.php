@@ -39,9 +39,14 @@
         <a href="#" style="font-size: 2rem;">Harris Bin Nazman</a>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
             <li><a href="#">About Me</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </div>
+
+    <span>
+        <img src="C:\laragon\www\MyPortfolio\public\pictures\background-layout.png" width="1370px" height="907px" alt="Error Image">
+    </span>
 </body>
 </html>
