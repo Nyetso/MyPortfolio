@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class ExperienceController extends Controller
 {
-    //
+    public function experience () {
+        return view('experience');
+    }
 }

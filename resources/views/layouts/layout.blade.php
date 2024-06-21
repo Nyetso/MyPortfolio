@@ -7,6 +7,14 @@
     <title>My Portfolio</title>
 
     <style>
+        .img-profile {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            border-radius: 5%;
+            width: 110px;
+            height: 150px;
+        }
         .navbar {
             display: flex;
             align-items: center;
@@ -38,8 +46,6 @@
         }
         .background {
             background-image: url('/storage/pictures/backgroundLayout.png');
-            width: auto;
-            height: auto;
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -53,6 +59,7 @@
             background-color: #b7b3b351;
             overflow-x: hidden;
             padding-top: 20px;
+            border-radius: 50%;
         }
         .sidenav a img {
             padding: 6px 6px 6px 5px;
@@ -66,8 +73,8 @@
 <body class="grid-container background">
         <div class="navbar shadow">
             <ul>
-                <li><img src="/storage/pictures/picture no bg.png" width="110px" height="150px"></li>
-                <li><a style="font-size: 2rem;"><br>Harris Bin Nazman</a></li>
+                <li><img src="/storage/pictures/picture no bg.png" class="img-profile"></li>
+                <li><a style="font-size: 2rem;">Harris Bin Nazman</a></li>
             </ul>
             <ul>
                 <li><a href="/">Home</a></li>

@@ -1,12 +1,6 @@
 @include('layouts.layout')
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
     <style>
         .block {
             display: flex;
@@ -18,6 +12,7 @@
             grid-template-columns: auto auto;
             gap: 40px;
             padding: 60px;
+            padding-bottom: 60px;
             text-align: center;
         }
         .block-container span {
@@ -26,14 +21,20 @@
         .block-container h2 {
             font-size: 2.0rem;
         }
+        .container-background {
+            background-color: rgba(170, 44, 244, 0.511);
+            border-radius: 20px;
+        }
     </style>
 </head>
+
 <body class="block">
+    <div class="block-container"><br></div>
     <div class="block-container">
-            <div>
+            <div class="container-background">
                 <h2>Hey There! I'm HARRIS<br></h2>
                 <span style="text-align: justify;">
-                    A web developer focused on achieving results by building and managing websites and<br>web applications that drive the success of the overall product.
+                    A web developer focused on achieving results by building and managing websites and<br>web applications that drive the success of the overall product.<br><br><br>
                 </span>
             </div>
             <div>
@@ -41,4 +42,4 @@
             </div>
     </div>
 </body>
-</html>
+
