@@ -26,18 +26,16 @@
             border-radius: 20px;
         }
         .navbar2 {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            border-bottom-style: solid;
-            border-color: rgb(0, 0, 0);
-            border-width: 2px;
-        }.navbar2 ul {
-            display: flex;
-            gap: 40px;
-        }
-        .navbar2 ul li {
-            list-style: none;
+            height: 200px;
+            width: 150px;
+            position: fixed;
+            z-index: 1;
+            top: 15rem;
+            right: 0;
+            background-color: #b7b3b351;
+            overflow-x: hidden;
+            padding-top: 55px;
+            border-radius: 50px;
         }
     </style>
 </head>
