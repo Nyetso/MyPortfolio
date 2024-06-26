@@ -59,6 +59,7 @@ body {
 
 #sidebar-logo {
     margin: auto 0;
+
 }
 
 .sidebar-logo span {
@@ -72,9 +73,15 @@ body {
     display: none;
 } */
 
-.sidebar-nav {
-    padding: 2rem 0;
+.sidebar-nav-2 {
+    padding: 0 0;
     flex: 1 1 auto;
+    overflow: hidden;
+}
+
+.sidebar-nav {
+    padding: 0 0;
+    flex: 3 1 auto;
     overflow: hidden;
 }
 
@@ -136,3 +143,4 @@ a.sidebar-link:hover {
     transform: rotate(45deg);
     transition: all .2s ease-out;
 } */
+

@@ -24,12 +24,21 @@
         }
         .border2 {
             padding: 20px;
-            position: relative;
-            left: 200px;
+            position: absolute;
+            left: 150px;
+            width: 90%;
+            display: flex;
+        }
+        .background2 {
+            background-image: url('/storage/pictures/soft-background-2.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            backface-visibility: hidden;
         }
     </style>
 </head>
-<body>
+<body class="background2">
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand"><strong>&nbsp;&nbsp;&nbsp;Harris Bin Nazman</strong></a>
@@ -52,7 +61,7 @@
                 <img src="/storage/pictures/picture no bg.png" class="img-profile ex1" width="110px" height="150px">
             </div>
             <div class="d-flex">&nbsp;</div>
-            <div class="d-flex">
+            <div class="d-flex sidebar-nav-2">
                 <div id="toggle-btn">
                     <i class="lni lni-grid-alt"></i>
                 </div>
@@ -97,5 +106,17 @@
     <div id="index" class="border2">
         @yield('content')
     </div>
+
+    <script>
+        let cursor-light = document.querySelector('.cursor-light');
+        let body = document.querySelector('body');
+
+        document.addEventListener('mousemove', (e) =>{
+            body.style.backgroundPositionX = e.pageX / -4 + 'px';
+            body.style.backgroundPositionY = e.pageY / -4 + 'px';
+            cursor.style.top = e.pageY + 'px';
+            cursor.style.left = e.pageX + 'px';
+        })
+    </script>
 </body>
 </html>
