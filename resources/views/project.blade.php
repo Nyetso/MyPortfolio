@@ -22,16 +22,16 @@
             </div>
             <div class="col-sm-4 text-left">
                 <ul>
-                    <li>1) <a href="\resources\views\projects\PHP Full Stack Web Development Bootcamp\HTML5 + CSS3\6 - Coming Soon Page\comingSoon.html" target="_blank">Coming Soon Page</a></li>
-                    <li>2) Personal Website Layout</li>
-                    <li>3) Google Home Page</li>
+                    <li>1) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\6 - Coming Soon Page\comingSoon.html" target="_blank">Coming Soon Page</a></li>
+                    <li>2) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\5 - Personal Website\onePageWebsite.html" target="_blank">Personal Website Layout</a></li>
+                    <li>3) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\4 - Google Home Page\google.html" target="_blank">Google Home Page</a></li>
                 </ul>
             </div>
             <div class="col-sm-4 text-left">
                 <ul>
-                    <li>4) Survey Page</li>
-                    <li>5) Product Landing Page</li>
-                    <li>6) Website Layout</li>
+                    <li>4) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\3 - Survey Page\survey.html" target="_blank">Survey Page</a></li>
+                    <li>5) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\2 - Product Landing Pages\casper.html" target="_blank">Product Landing Page</a></li>
+                    <li>6) <a href="\storage\projects\PHPFullStackDevBootCamp\htmlCss\1 - Website  Layout\layout.html" target="_blank">Website Layout</a></li>
                 </ul>
             </div>
         </div>
